@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>APIEndpointURL</key>
+	<string>$(APIEndpointURL)</string>
+	<key>APILogs</key>
+	<string>$(APILogs)</string>
+	<key>APIVersion</key>
+	<string>$(APIVersion)</string>
+	<key>AppEnvironment</key>
+	<string>$(AppEnvironment)</string>
+	<key>BGTaskSchedulerPermittedIdentifiers</key>
+	<array>
+		<string>com.smartpods.ios.pulseecho</string>
+	</array>
+	<key>BLEDataLogs</key>
+	<string>$(BLEDataLogs)</string>
+	<key>BuildType</key>
+	<string>$(BuildType)</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>$(PRODUCT_BUNDLE_PACKAGE_TYPE)</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>Config</key>
+	<string>$(CONFIGURATION)</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>We use bluetooth to connect to the Smartpods hardware device.</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>We use Bluetooth to connect to the Smartpods hardware device.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>We might access your camera.</string>
+	<key>NSContactsUsageDescription</key>
+	<string>We might access your phone contacts.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>We requires constant access to your phone’s location to notify you when you enter or leave a geofence.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>We requires constant access to your phone’s location to notify you when you enter or leave a geofence.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>We might access your photo library.</string>
+	<key>NSUserTrackingUsageDescription</key>
+	<string>Your data will be used only when the application is active.</string>
+	<key>SchemaVersion</key>
+	<string>$(SchemaVersion)</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>D-DINCondensed.ttf</string>
+		<string>gotham-rounded-bold-italic.otf</string>
+		<string>gotham-rounded-bold.otf</string>
+		<string>gotham-rounded-book-italic.otf</string>
+		<string>gotham-rounded-book.otf</string>
+		<string>gotham-rounded-light-italic.otf</string>
+		<string>gotham-rounded-light.otf</string>
+	</array>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>bluetooth-central</string>
+		<string>fetch</string>
+		<string>location</string>
+		<string>processing</string>
+		<string>remote-notification</string>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UIStatusBarHidden</key>
+	<true/>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>UIUserInterfaceStyle</key>
+	<string>Light</string>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+</dict>
+</plist>

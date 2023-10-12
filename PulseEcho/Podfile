@@ -1,0 +1,88 @@
+# Uncomment the next line to define a global platform for your project
+ platform :ios, '11.0'
+
+ def installDependencies
+   pod 'FontAwesome.swift'
+   pod 'Localize' , '~> 2.3.0'
+   pod 'Moya', '~> 14.0'
+   pod 'IQKeyboardManagerSwift'
+   pod 'GradientLoadingBar', '~> 2.0'
+   #pod 'RLBAlertsPickers', '~> 1.1.1' #commented out due to conflict with other class definition
+   pod 'NotificationBannerSwift', '~> 3.0.0'
+   pod 'SnapKit', '~> 5.0.0'
+   pod 'Material', '~> 3.1.0'
+   pod 'UICircularProgressRing'
+   pod 'AsyncTimer', '~> 2.2'
+   pod 'TGPControls'
+   pod 'SwiftEventCenter'
+   pod 'PanModal'
+   pod 'Blueprints'
+   pod "Device", '~> 3.2.1'
+   pod 'SwiftEventBus', :tag => '5.0.1', :git => 'https://github.com/cesarferreira/SwiftEventBus.git'
+   pod "AMXFontAutoScale"
+   pod 'MarqueeLabel'
+   pod 'Charts'
+   pod 'DynamicCodable', '1.0'
+   pod 'EmptyStateKit'
+   pod "PullToRefreshKit"
+   pod 'SPAlert'
+   pod 'EmbraceIO'
+   pod 'PopupDialog', '~> 1.1'
+   pod 'ScrollingContentViewController'
+   pod 'TBDropdownMenu'
+   pod 'KeychainSwift', '~> 19.0'
+   pod 'RealmSwift'
+   pod 'NVActivityIndicatorView'
+   pod 'SPPermissions/Notification'
+   pod 'SPPermissions/Bluetooth'
+   pod 'SPPermissions/Location'
+   #pod 'SwiftyBeaver'
+   # Recommended: Add the Firebase pod for Google Analytics
+   pod 'Firebase/Crashlytics'
+   #pod 'Firebase/Analytics'
+   #pod 'Firebase/Performance'
+ end 
+
+#target 'Development' do
+#  use_frameworks!
+#end
+
+target 'PulseEcho' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for PulseEcho
+  installDependencies
+  
+  post_install do |installer|
+    installer.pods_project.build_configurations.each do |config|
+      config.build_settings['LD_RUNPATH_SEARCH_PATHS'] = [
+        '$(FRAMEWORK_SEARCH_PATHS)'
+      ]
+    end
+  end
+
+  target 'PulseEchoTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'PulseEchoUITests' do
+    # Pods for testing
+  end
+
+end
+
+post_install do |installer|
+    installer.pods_project.targets.each do |target|
+        target.build_configurations.each do |config|
+            config.build_settings.delete('CODE_SIGNING_ALLOWED')
+            config.build_settings.delete('CODE_SIGNING_REQUIRED')
+        end
+    end
+    installer.pods_project.build_configurations.each do |config|
+        config.build_settings.delete('CODE_SIGNING_ALLOWED')
+        config.build_settings.delete('CODE_SIGNING_REQUIRED')
+    end
+end
+

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="BoxMainControls" customModule="PulseEcho" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="65"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="P6E-OZ-dwp">
+                    <rect key="frame" x="0.0" y="5" width="375" height="55"/>
+                    <subviews>
+                        <view alpha="0.29999999999999999" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S3E-3M-ICQ">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="55"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </view>
+                        <stackView opaque="NO" contentMode="scaleToFill" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="WUY-RJ-owH">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="55"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="26M-4t-Ks1">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="55"/>
+                                    <subviews>
+                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="sc5-qt-Fvn">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="55"/>
+                                            <subviews>
+                                                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eAp-GL-ecI">
+                                                    <rect key="frame" x="0.0" y="8" width="125" height="39.5"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <state key="normal" image="sit">
+                                                        <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    </state>
+                                                    <state key="selected" image="sit_click"/>
+                                                    <state key="highlighted" image="sit_click"/>
+                                                    <connections>
+                                                        <action selector="onBtnActionsWithSender:" destination="iN0-l3-epB" eventType="touchUpInside" id="U0a-hy-0Db"/>
+                                                    </connections>
+                                                </button>
+                                                <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XHI-dU-h6y">
+                                                    <rect key="frame" x="125" y="8" width="125" height="39.5"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <state key="normal" image="stand">
+                                                        <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    </state>
+                                                    <state key="selected" image="stand_click"/>
+                                                    <state key="highlighted" image="stand_click"/>
+                                                    <connections>
+                                                        <action selector="onBtnActionsWithSender:" destination="iN0-l3-epB" eventType="touchUpInside" id="tKP-x2-n7f"/>
+                                                    </connections>
+                                                </button>
+                                                <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W10-s7-Mhn">
+                                                    <rect key="frame" x="250" y="8" width="125" height="39.5"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <state key="normal" image="stop">
+                                                        <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    </state>
+                                                    <state key="selected" image="stop_click"/>
+                                                    <state key="highlighted" image="stop_click"/>
+                                                    <connections>
+                                                        <action selector="onBtnActionsWithSender:" destination="iN0-l3-epB" eventType="touchUpInside" id="Tu6-od-1Qk"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                        </stackView>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CYv-mB-H5O">
+                                            <rect key="frame" x="0.0" y="0.0" width="40" height="55"/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="55" id="29b-uD-ZBY"/>
+                                                <constraint firstAttribute="width" constant="40" id="uCA-Iz-JdE"/>
+                                            </constraints>
+                                            <state key="normal" image="controls_shortcut">
+                                                <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            </state>
+                                            <state key="highlighted" image="controls_shortcut_click"/>
+                                            <connections>
+                                                <action selector="onBtnActionsWithSender:" destination="iN0-l3-epB" eventType="touchUpInside" id="fT9-Cq-tui"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstAttribute="trailing" secondItem="sc5-qt-Fvn" secondAttribute="trailing" id="AmS-0g-TxK"/>
+                                        <constraint firstItem="sc5-qt-Fvn" firstAttribute="top" secondItem="26M-4t-Ks1" secondAttribute="top" id="Su9-Me-EO8"/>
+                                        <constraint firstItem="CYv-mB-H5O" firstAttribute="leading" secondItem="26M-4t-Ks1" secondAttribute="leading" id="Wey-g9-HPY"/>
+                                        <constraint firstItem="sc5-qt-Fvn" firstAttribute="leading" secondItem="26M-4t-Ks1" secondAttribute="leading" id="anJ-Tc-y5l"/>
+                                        <constraint firstItem="CYv-mB-H5O" firstAttribute="top" secondItem="26M-4t-Ks1" secondAttribute="top" id="oM0-Fz-eNV"/>
+                                        <constraint firstAttribute="bottom" secondItem="CYv-mB-H5O" secondAttribute="bottom" id="t7v-gD-8NR"/>
+                                        <constraint firstAttribute="bottom" secondItem="sc5-qt-Fvn" secondAttribute="bottom" id="uwd-WC-7FX"/>
+                                    </constraints>
+                                </view>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="S3E-3M-ICQ" firstAttribute="top" secondItem="P6E-OZ-dwp" secondAttribute="top" id="1wQ-Rb-ORj"/>
+                        <constraint firstItem="WUY-RJ-owH" firstAttribute="leading" secondItem="P6E-OZ-dwp" secondAttribute="leading" id="5y8-BJ-3YZ"/>
+                        <constraint firstAttribute="bottom" secondItem="WUY-RJ-owH" secondAttribute="bottom" id="BCa-9K-5gk"/>
+                        <constraint firstAttribute="bottom" secondItem="S3E-3M-ICQ" secondAttribute="bottom" id="KRX-4O-AuY"/>
+                        <constraint firstAttribute="trailing" secondItem="WUY-RJ-owH" secondAttribute="trailing" id="O7J-hU-ftW"/>
+                        <constraint firstItem="WUY-RJ-owH" firstAttribute="top" secondItem="P6E-OZ-dwp" secondAttribute="top" id="Rtv-qT-Rig"/>
+                        <constraint firstAttribute="trailing" secondItem="S3E-3M-ICQ" secondAttribute="trailing" id="iMz-X1-1j7"/>
+                        <constraint firstItem="S3E-3M-ICQ" firstAttribute="leading" secondItem="P6E-OZ-dwp" secondAttribute="leading" id="mDL-fh-5xm"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="P6E-OZ-dwp" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="6m7-nT-vwn"/>
+                <constraint firstItem="P6E-OZ-dwp" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" constant="-5" id="YOu-TT-Xnb"/>
+                <constraint firstItem="P6E-OZ-dwp" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="5" id="w9m-Hj-kM0"/>
+                <constraint firstItem="P6E-OZ-dwp" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="zwQ-jh-hkf"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="btnControlMenu" destination="CYv-mB-H5O" id="swg-fd-GWg"/>
+                <outlet property="btnSit" destination="eAp-GL-ecI" id="49D-xv-2pN"/>
+                <outlet property="btnStand" destination="XHI-dU-h6y" id="qcm-lV-2t1"/>
+                <outlet property="btnStop" destination="W10-s7-Mhn" id="G57-kJ-ypt"/>
+            </connections>
+            <point key="canvasLocation" x="-64.492753623188406" y="148.32589285714286"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="controls_shortcut" width="34.666667938232422" height="67.333335876464844"/>
+        <image name="controls_shortcut_click" width="34.666667938232422" height="67.333335876464844"/>
+        <image name="sit" width="40" height="39.5"/>
+        <image name="sit_click" width="40" height="39.5"/>
+        <image name="stand" width="40" height="39.5"/>
+        <image name="stand_click" width="40" height="39.5"/>
+        <image name="stop" width="40" height="39.5"/>
+        <image name="stop_click" width="40" height="39.5"/>
+    </resources>
+</document>

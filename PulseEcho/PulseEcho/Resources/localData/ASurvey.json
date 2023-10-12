@@ -1,0 +1,275 @@
+{
+	"Survey": {
+		"SurveyID": 1,
+		"RuntimeID": 1,
+		"Category": 1,
+		"Name": "User Experience",
+		"StartDate": "2019-08-20T00:00:00",
+		"EndDate": "2020-08-22T12:18:04.11",
+		"Status": 1,
+		"QuestionCount": 8,
+		"PercentComplete": 0.0,
+		"Questions": [
+			{
+				"QuestionRunID": 1,
+				"QuestionID": 1,
+				"Answer": null,
+				"Rank": 1,
+				"Language": 0,
+				"Text": "Using Smartpods has had a positive impact on my overall health.",
+				"ScaleOptions": [
+					{
+						"ID": 3,
+						"LanguageEnum": 0,
+						"Text": "Disagree",
+						"Rank": 0,
+						"RiskScore": 0
+					},
+					{
+						"ID": 2,
+						"LanguageEnum": 0,
+						"Text": "Neither agree nor disagree",
+						"Rank": 1,
+						"RiskScore": 0
+					},
+					{
+						"ID": 1,
+						"LanguageEnum": 0,
+						"Text": "Agree",
+						"Rank": 2,
+						"RiskScore": 0
+					}
+				],
+				"SelectedScaleOptionID": 0
+			},
+			{
+				"QuestionRunID": 2,
+				"QuestionID": 2,
+				"Answer": null,
+				"Rank": 2,
+				"Language": 0,
+				"Text": "Using Smartpods has decreased my overall body stiffness.",
+				"ScaleOptions": [
+					{
+						"ID": 6,
+						"LanguageEnum": 0,
+						"Text": "Disagree",
+						"Rank": 0,
+						"RiskScore": 0
+					},
+					{
+						"ID": 5,
+						"LanguageEnum": 0,
+						"Text": "Neither agree nor disagree",
+						"Rank": 1,
+						"RiskScore": 0
+					},
+					{
+						"ID": 4,
+						"LanguageEnum": 0,
+						"Text": "Agree",
+						"Rank": 2,
+						"RiskScore": 0
+					}
+				],
+				"SelectedScaleOptionID": 0
+			},
+			{
+				"QuestionRunID": 3,
+				"QuestionID": 3,
+				"Answer": null,
+				"Rank": 3,
+				"Language": 0,
+				"Text": "Since using Smartpods, I have seen an increase in my energy level.",
+				"ScaleOptions": [
+					{
+						"ID": 9,
+						"LanguageEnum": 0,
+						"Text": "Disagree",
+						"Rank": 0,
+						"RiskScore": 0
+					},
+					{
+						"ID": 8,
+						"LanguageEnum": 0,
+						"Text": "Neither agree nor disagree",
+						"Rank": 1,
+						"RiskScore": 0
+					},
+					{
+						"ID": 7,
+						"LanguageEnum": 0,
+						"Text": "Agree",
+						"Rank": 2,
+						"RiskScore": 0
+					}
+				],
+				"SelectedScaleOptionID": 0
+			},
+			{
+				"QuestionRunID": 4,
+				"QuestionID": 4,
+				"Answer": null,
+				"Rank": 4,
+				"Language": 0,
+				"Text": "I feel more alert and focused when I stand regularly throughout the hour.",
+				"ScaleOptions": [
+					{
+						"ID": 12,
+						"LanguageEnum": 0,
+						"Text": "Disagree",
+						"Rank": 0,
+						"RiskScore": 0
+					},
+					{
+						"ID": 11,
+						"LanguageEnum": 0,
+						"Text": "Neither agree nor disagree",
+						"Rank": 1,
+						"RiskScore": 0
+					},
+					{
+						"ID": 10,
+						"LanguageEnum": 0,
+						"Text": "Agree",
+						"Rank": 2,
+						"RiskScore": 0
+					}
+				],
+				"SelectedScaleOptionID": 0
+			},
+			{
+				"QuestionRunID": 5,
+				"QuestionID": 5,
+				"Answer": null,
+				"Rank": 5,
+				"Language": 0,
+				"Text": "Smartpods has allowed me to spend more time standing throughout the day.",
+				"ScaleOptions": [
+					{
+						"ID": 15,
+						"LanguageEnum": 0,
+						"Text": "Disagree",
+						"Rank": 0,
+						"RiskScore": 0
+					},
+					{
+						"ID": 14,
+						"LanguageEnum": 0,
+						"Text": "Neither agree nor disagree",
+						"Rank": 1,
+						"RiskScore": 0
+					},
+					{
+						"ID": 13,
+						"LanguageEnum": 0,
+						"Text": "Agree",
+						"Rank": 2,
+						"RiskScore": 0
+					}
+				],
+				"SelectedScaleOptionID": 0
+			},
+			{
+				"QuestionRunID": 6,
+				"QuestionID": 6,
+				"Answer": null,
+				"Rank": 6,
+				"Language": 0,
+				"Text": "The Smartpods 3 step sign-in process was easy to understand and complete.",
+				"ScaleOptions": [
+					{
+						"ID": 18,
+						"LanguageEnum": 0,
+						"Text": "Disagree",
+						"Rank": 0,
+						"RiskScore": 0
+					},
+					{
+						"ID": 17,
+						"LanguageEnum": 0,
+						"Text": "Neither agree nor disagree",
+						"Rank": 1,
+						"RiskScore": 0
+					},
+					{
+						"ID": 16,
+						"LanguageEnum": 0,
+						"Text": "Agree",
+						"Rank": 2,
+						"RiskScore": 0
+					}
+				],
+				"SelectedScaleOptionID": 0
+			},
+			{
+				"QuestionRunID": 7,
+				"QuestionID": 7,
+				"Answer": null,
+				"Rank": 7,
+				"Language": 0,
+				"Text": "Overall, Smartpods software is easy to use and answers most of my questions.",
+				"ScaleOptions": [
+					{
+						"ID": 21,
+						"LanguageEnum": 0,
+						"Text": "Disagree",
+						"Rank": 0,
+						"RiskScore": 0
+					},
+					{
+						"ID": 20,
+						"LanguageEnum": 0,
+						"Text": "Neither agree nor disagree",
+						"Rank": 1,
+						"RiskScore": 0
+					},
+					{
+						"ID": 19,
+						"LanguageEnum": 0,
+						"Text": "Agree",
+						"Rank": 2,
+						"RiskScore": 0
+					}
+				],
+				"SelectedScaleOptionID": 0
+			},
+			{
+				"QuestionRunID": 8,
+				"QuestionID": 8,
+				"Answer": null,
+				"Rank": 8,
+				"Language": 0,
+				"Text": "The automated features of Smartpods increases my chances of moving more versus an electric desk that would require me to move it manually on an hourly basis.",
+				"ScaleOptions": [
+					{
+						"ID": 24,
+						"LanguageEnum": 0,
+						"Text": "Disagree",
+						"Rank": 0,
+						"RiskScore": 0
+					},
+					{
+						"ID": 23,
+						"LanguageEnum": 0,
+						"Text": "Neither agree nor disagree",
+						"Rank": 1,
+						"RiskScore": 0
+					},
+					{
+						"ID": 22,
+						"LanguageEnum": 0,
+						"Text": "Agree",
+						"Rank": 2,
+						"RiskScore": 0
+					}
+				],
+				"SelectedScaleOptionID": 0
+			}
+		]
+	},
+	"LastAnswerDated": "0001-01-01T00:00:00",
+	"Success": true,
+	"ResultCode": 0,
+	"Message": ""
+}

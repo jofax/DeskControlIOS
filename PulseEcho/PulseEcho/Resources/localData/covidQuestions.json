@@ -1,0 +1,79 @@
+{
+    "Survey": {
+        "SurveyID": 1,
+        "RuntimeID": 7,
+        "Category": 1,
+        "Name": "Covid 19 Questions",
+        "StartDate": "2020-05-21T00:00:00",
+        "EndDate": "2020-06-21T00:00:00",
+        "Status": 1,
+        "QuestionCount": 5,
+        "PercentComplete": 0.0,
+        "Questions": [
+            {
+              "QuestionRunID": 49,
+              "QuestionID": 1,
+              "Answer": null,
+              "Rank": 1,
+              "Language": 0,
+              "ImageURL": "cough_icon",
+              "Text": "Are you experiencing these Symptoms?",
+              "Details": ["Fever", "Cough", "Sore throat", "Runny Nose"],
+              "ScaleOptions": [],
+              "SelectedScaleOptionID": 0
+            },
+            {
+              "QuestionRunID": 50,
+              "QuestionID": 2,
+              "Answer": null,
+              "Rank": 2,
+              "Language": 0,
+              "ImageURL": "cleaning_icon",
+              "Text": "It's important to clean all contact surfaces.",
+              "Details": ["Clean desk policy", "Clean mouse & keyboard", "Clean chair arms", "Clean monitors"],
+              "ScaleOptions": [],
+              "SelectedScaleOptionID": 0
+            },
+            {
+              "QuestionRunID": 51,
+              "QuestionID": 3,
+              "Answer": null,
+              "Rank": 3,
+              "Language": 0,
+              "ImageURL": "wash_hands_icon",
+              "Text": "Wash your hands often.",
+              "Details": ["Wash for 20 seconds", "Palm & back of hands", "Between fingers, thumbs & finger nails"],
+              "ScaleOptions": [],
+              "SelectedScaleOptionID": 0
+            },
+            {
+              "QuestionRunID": 52,
+              "QuestionID": 4,
+              "Answer": null,
+              "Rank": 4,
+              "Language": 0,
+              "ImageURL": "distancing_icon",
+              "Text": "Keep a safe distance.",
+              "Details": ["SOCIAL DISTANCING OF 2 METERS/6 FEET"],
+              "ScaleOptions": [],
+              "SelectedScaleOptionID": 0
+            },
+            {
+              "QuestionRunID": 53,
+              "QuestionID": 5,
+              "Answer": null,
+              "Rank": 5,
+              "Language": 0,
+              "ImageURL": "mask_icon",
+              "Text": "Wearing a mask lowers the risk of spreading.",
+              "Details": ["Help reduce the spread"],
+              "ScaleOptions": [],
+              "SelectedScaleOptionID": 0
+            }
+          ]
+    },
+    "LastAnswerDated": "0001-01-01T00:00:00",
+    "Success": true,
+    "ResultCode": 0,
+    "Message": ""
+}

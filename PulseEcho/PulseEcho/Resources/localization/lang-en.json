@@ -1,0 +1,257 @@
+{
+    "generic":{
+        "app_error": "Application Error.",
+        "error_title": "Error",
+        "other_error": "Something went wrong. Please try again.",
+        "login_error":"Unable to login with provided credentials.",
+        "server_error":"Cannot connect to server.",
+        "account_locked": "Account locked. Please contact administrator.",
+        "account_verification_failed": "Failed to verify your account.",
+        "unable_to_login": "Unable to login with provided credentials.",
+        "invalid_org_or_desk": "Invalid organization or desk serial number. Do you want to proceed with guest account?",
+        "new_organization_assigned": "You need to login again to use the desk.",
+        "information":"Information",
+        "notice": "Notice",
+        "congratulations": "Congratulations!",
+        "desk_not_registered":"Desk is not registered. Do you want to proceed with guest account?",
+        "serial_number_not_found": "Cannot find serial number.",
+        "unknow_error": "Unknown Error",
+        "invalid_registration":"Invalid registration number.",
+        "unknown_org":"Unkown organization code.",
+        "account_verification": "Please confirm your email address.",
+        "no_profile_settings": "Unable to get activity profile.",
+        "bluetooth_off": "Bluetooth is powered off. Please enable it on the phone settings.",
+        "warning": "Warning",
+        "error_code_14": "Please ensure that you did unpair the device in the bluetooth settings and as well the device is on pairing mode.",
+        "ble_connection_error": "Unable to pair device. Please try again.",
+        "invalid_pin_code":"Invalid pin code. Please try again and make the sure the device is on pairing mode.",
+        "error_code_15": "Failed to establish the connection, the connection has timed out unexpectedly. Please remove the device in the settings and try to pair again.",
+        "desk_adjusted":"Your preset heights are outside the range available at this workstation. Your height settings have been adjusted to the closest available height.",
+        "ble_adapter_error": "Device error. Please reconnect manually.",
+        "desktop_app_active": "The desktop app is active.",
+        "invalid_session": "Your session has a timeout. Please log in again.",
+        "desk_is_booked": "The desk is currently booked. Please wait for the desk to be available or you can use another desk.",
+        "desk_disabled": "The desk is currently disabled due to an incoming booking.",
+        "desk_has_incoming_booking": "The desk has an incoming booking by",
+        "clean_desk": "Please clean the desk before and after use."
+    },
+    "database":{
+        "db_error":"Database error",
+        "db_table_error": "Database table error"
+    },
+    "success":{
+        "title": "Success!",
+        "thanks": "Thank you!",
+        "signup_message": "Please check your email to activate your account.",
+        "profile_updated": "Your profile has been updated.",
+        "survey_success":"We have received your response, continue to update to improve your health.",
+        "request_success": "Request completed.",
+        "sync_data": "Connected, please wait while we update your data."
+    },
+    "permissions":{
+        "title":"Notice",
+        "bluetooth_permission": "Please allow the PulseEcho app to access the bluetooth service in your phone settings privacy section."
+    },
+    "common": {
+        "back":"Back",
+        "submit":"Submit",
+        "cancel":"Cancel",
+        "save": "Save",
+        "yes": "Yes",
+        "no": "No",
+        "ok" : "OK",
+        "enable": "Enable",
+        "settings": "Settings",
+        "support": "Support"
+    },
+    "welcome": {
+        "title": "Welcome",
+        "login": "Login",
+        "password": "Password",
+        "register": "New User",
+        "login_placeholder": "username@email.com",
+        "forgot": "Forgot Password",
+        "email": "Email",
+        "submit": "Submit",
+        "activate":"Activate account",
+        "activate_placeholder": "Activate Code",
+        "guest": "Guest"
+    },
+    "login": {
+        "empty": "Username and Password is required.",
+        "invalid": "Invalid email or password.",
+        "invalid_email": "Invalid email address.",
+        "email_required":"Email Address Required.",
+        "password_required":"Password required.",
+        "empty_code":"Validation code required.",
+        "account_locked": "Your account is temporarily locked. CLick on forgot password to reset.",
+        "verify_account": "Please verify your account.",
+        "invalid_code":"Invalid activation code.",
+        "no_user": "Your email should be associated with organization. Please contact support.",
+        "activate_resend_code": "Please check your registered email for the activation code.",
+    },
+    "registration": {
+        "empty": "All fields are required.",
+        "verify_password": "Verify Password",
+        "password_mismatch":"New and verify password mismatched.",
+        "verify_password_required": "Verify Password Required.",
+        "register": "Register"
+    },
+    "forgot":{
+        "empty_form":"Password and verify password required.",
+        "forgot_title": "Forgot Password",
+        "email_content":"Send reset code to my email.",
+        "reset_code": "Enter Reset Code",
+        "validate_code": "Validate Code",
+        "new_password": "New Password",
+        "verify_new_password":"Verify New Password",
+        "invalid_pincode": "Invalid Pincode",
+        "pincode_required": "Pin code required.",
+        "success_request_pincode": "Please check your email for the reset password code.",
+        "success_reset_password": "Password has been reset, please login with your email and password."
+    },
+    "home":{
+        "title":"Home",
+        "bank_stars":"Bank Stars",
+        "daily_title":"Daily",
+        "total_title": "Total",
+        "list_stars":"List Stars",
+        "manual_notifier": "We’ve noticed that your desk has been inactive for too long. To achieve the most benefit from your Smartpods workstation, we recommend you move at least twice each hour.",
+        "safety_title": "Alert!",
+        "safety_message": "Please ensure that there are no obstacles around and under the desk."
+    },
+    "deskHeight":{
+        "title":"Height Settings",
+        "current_height": "Current Height",
+        "stand_title": "Set Stand",
+        "sit_title": "Set sit",
+        "set_standing_error": "The standing position needs to be greater than the sit position.",
+        "set_sitting_error": "The sitting position needs to be greater than the stand position.",
+        "sit_stand_diff_error": "The difference between sitting and standing must be greater than",
+        "both_adjusted":"Sitting and standing height has been adjusted",
+        "stand_height_adjusted":"Standing height has been adjusted",
+        "sit_height_adjusted":"Sitting height has been adjusted"
+    },
+    "statistics":{
+        "heart_statistics": "Heart Statistics",
+        "heart_accumulation": "Heart Accumulation"
+    },
+    "userProfile":{
+        "title":"User Profile",
+        "action_sheet_title":"Please select and option."
+    },
+    "survey": {
+        "title":"Survey: MSK"
+    },
+    "options":{
+        "control_title":"Controls",
+        "password_change":"Password Change"
+    },
+    "options_password_change":{
+        "empty_form":"All fields are required.",
+        "email":"Email",
+        "old_password":"Old Password",
+        "new_password":"New Password",
+        "verify_password":"Verify New Password",
+        "save":"Save",
+        "old_password_required": "Old Password Required.",
+        "new_password_required":"New Password Required.",
+        "new_old_password": "New and Verify password mismatched.",
+        "success_password_changed": "Password has been changed, please login again."
+    },
+    "ble_device_list":{
+        "title":"Pair A Device",
+        "detected_devices":"Detected Devices"
+    },
+    "app_version": {
+        "title":"Software Version",
+        "app_ver": "Application Version",
+        "firmware_ver": "Desk Firmware",
+        "version_desc":"Warning: This computer program is protected by copyright law and international treaties. Unauthorized reproduction or distribution of this program, or any portion of it, may result in severe civil and criminal penalties, and will be prosecuted to the maximum extent possible under the law."
+    },
+    "logout": {
+        "title": "Logout",
+        "desc1": "Logging out will direct you to the login screen.",
+        "desc2": "Would you like to logout?"
+    },
+    "bmi":{
+        "title":"Body Mass Index",
+        "sub_title": "This will classify you as:",
+        "underweight":"Underweight (<18.5)",
+        "healthy_weight": "Healthy Weight (18.5 - 24.9)",
+        "overweight": "Overweight (25 - 29.9)",
+        "obese": "Obese (>30)",
+        "height": "Height",
+        "weight": "Weight"
+    },
+    "calorie":{
+        "title":"Estimated calorie expenditure",
+        "content": "This is the estimated number of calories that you will be burning while using Smartpods."
+    },
+    "bmr":{
+        "title":"Basal Metabolic Rate",
+        "content":"Basal metabolic rate (BMR) is the amount of energy expanded while at rest."
+    },
+    "desk_statistics":{
+        "title":"Desk Statistics"
+    },
+    "activity_profile":{
+        "title":"Activity Profile",
+        "preset": "Pre-Sets",
+        "first_30": "1st 30 min",
+        "second_30": "2nd 30 min",
+        "hour_cycle":"1 Hour Cycle",
+        "duration": "Stand Duration",
+        "make_me_healthy": "Make Me Healthy",
+        "profile_not_updated": "Profile not update. Please try again."
+        
+    },
+    "desk_mode":{
+        "title": "Desk Mode",
+        "auto_title":"Automatic Desk Mode",
+        "auto_desc": "Runs through the activity cycle without the need of user acknowledgement.",
+        "manual_title": "Manual Desk Mode",
+        "manual_desc":"Runs through the activity cycle manually.",
+        "interactive_title": "Interactive Desk Mode",
+        "interactive_desc":"Runs through the activity cycle with the need of user acknowledgement."
+    },
+    "active_stars":{
+        "title":"Active Stars"
+    },
+    "buttons": {
+        "ok": "OK",
+        "cancel": "Cancel",
+        "agree":"Agree"
+    },
+    "box_controls": {
+        "safety_alert":"Changing the safety sensitivity could affect the functioning and safety of the user working at this desk. Do want to change the safety values?"
+    },
+    "hear_progress": {
+        "heart_fills_up": "You have added progress in your heart, keep up the good work."
+    },
+    "risk_assessment": {
+        "title": "Health Risk",
+        "screen_title": "Health Risk Scrore",
+        "low": "Low",
+        "medium": "Medium",
+        "high": "High"
+    },
+    "survey": {
+        "title":"Survey",
+        "message":"New survey available. Do you want to proceed?",
+        "no_answers": "Survey questions are not answered. Please go over and update each question."
+    },
+    "departments": {
+        "title": "Please choose your department."
+    },
+    "covid": {
+        "title":"Covid 19 Assessment",
+        "message": "Please answer the following questions of Covid 19 health assessment.",
+        "not_enough_answers_message": "Covid19 questions are not completed. Please go over and update each question.",
+    },
+    "geofencing": {
+        "not_supported":"Geofencing is not supported on this device!",
+        "not_permitted": "Your geotification is saved but will only be activated once you grant allow permission to access the device location."
+    }
+        
+}

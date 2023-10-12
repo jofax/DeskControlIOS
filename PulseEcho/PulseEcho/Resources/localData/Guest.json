@@ -1,0 +1,62 @@
+{
+    "User": {
+            "DepartmentID": 0,
+            "Email": "guest",
+            "Firstname": "Guest",
+            "Lastname": "Account",
+            "Hearts": {
+                "Today": 0.0,
+                "Total": 0,
+                "AvgHoursFillHeart": 0.0
+            },
+            "Weight": 0,
+            "Height": 0,
+            "BMI": 0,
+            "BMR": 0,
+            "YearOfBirth": 0,
+            "Gender": 1,
+            "Language": -1,
+            "AcknowledgedWaiver": false,
+            "WatchedSafetyVideo": false,
+            "StepType": 0,
+            "LifeStyle": 0,
+            "JobDescription": 0,
+            "LogoutWhenNotDetected": false,
+            "TaskBarNotification": false,
+            "AutoLogin": false,
+            "AcknowledgedWaiverDate": "",
+            "IsImperial": false
+        },
+    
+    "UserAppState": {
+        "DeviceId": "",
+        "SerialNumber":"",
+        "Email": "guest",
+        "UserId": 0,
+        "InteractivePopUpShowed": false,
+        "SafetyPopUpShowed": false,
+        "UserVM": "",
+        "UserDeskMode":"",
+        "BLEUUID":"",
+        "OrgCode":"",
+        "SessionExpiryDated": "",
+        "SessionDated": "",
+        "SessionKey": "",
+        "RenewalKey": "",
+        "AutomaticControls": false,
+        "LegacyControls": false,
+        "DateDataBeenPurge": 0,
+        "LocalDataExpiry": 0
+    },
+    
+    "Settings": {
+        "ProfileID": 0,
+        "Email": "guest",
+        "StandingTime1": 5,
+        "StandingTime2": 0,
+        "ProfileSettingType": 2,
+        "SittingPosition": 730,
+        "StandingPosition": 1100,
+        "IsInteractive": false
+    }
+}

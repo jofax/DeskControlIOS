@@ -1,0 +1,21 @@
+//
+//  PulseEchoReleaseConfig.xcconfig
+//  PulseEcho
+//
+//  Created by Joseph on 2020-05-29.
+//  Copyright © 2020 Smartpods. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+//http://10.0.2.170:50639/api
+
+name = Release
+//APIEndpointURL = 172.16.2.2:8082/api
+AppEnvironment = Release
+BLEDataLogs = 0
+APILogs = 0
+SchemaVersion = 2
+BuildType = 0
+APIEndpointURL = smartapi.smartpods.ca/api
+APIVersion = 1.5.7
